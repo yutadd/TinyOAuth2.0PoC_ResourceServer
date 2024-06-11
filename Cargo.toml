@@ -1,0 +1,18 @@
+[package]
+name = "tiny_oauth2_poc_resource_server"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+hyper = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+once_cell="1.19.0"
+mysql="25.0.1"
+serde="1.0.203"
+chrono="^0.4"
+rand="*"
+percent-encoding="*"
+bcrypt = "*"
+base64 = "*"
+uuid = { version = "1", features = ["v4"] }
